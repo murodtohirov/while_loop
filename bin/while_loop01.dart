@@ -14,5 +14,5 @@ int getSum(int a) {
 }
 
 void main() {
-  print(getSum(1245));
+  print(getSum(8245));
 }
