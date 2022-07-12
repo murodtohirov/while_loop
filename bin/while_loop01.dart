@@ -6,15 +6,15 @@
 int func(int a) {
   int s = 0;
   int n = 0;
-  while (s < a) {
+  while (s <= a) {
     s++;
     if (s % 2 == 1) {
-      n++;
+      n += 1;
     }
   }
-  return n;
+  return n - 1;
 }
 
 void main() {
-  print(func(21));
+  print(func(12));
 }
