@@ -9,7 +9,7 @@ int func(int a) {
   while (s <= a) {
     s++;
     if (s % 2 == 1) {
-      n += 1;
+      n++;
     }
   }
   return n;
