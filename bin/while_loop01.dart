@@ -2,19 +2,19 @@
   Create function func with "a " argument
   Return the number of odd numbers up to A.
 */
-int getSum(int a) {
-  int b = 0;
-  int count = 0;
-  while (a <= 10) {
-    b++;
-    if (b % 2 == 1) {
-      count++;
+
+int func(int a) {
+  int s = 0;
+  int n = 0;
+  while (s <= a) {
+    s++;
+    if (s % 2 == 1) {
+      n += 1;
     }
-    a ~/= 10;
   }
-  return count;
+  return n;
 }
 
 void main() {
-  print(getSum(12));
+  print(func(21));
 }
