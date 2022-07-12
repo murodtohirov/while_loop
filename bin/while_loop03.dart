@@ -6,8 +6,8 @@
 int func(int a) {
   int s = 0;
   int n = 0;
-  while (s <= a) {
-    s++;
+  while (s < a) {
+    s += 1;
     if (s % 2 == 1) {
       n += s;
     }
@@ -16,5 +16,5 @@ int func(int a) {
 }
 
 void main() {
-  print(func(21));
+  print(func(6));
 }
