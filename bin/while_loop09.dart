@@ -6,7 +6,7 @@
 */
 String func(int a) {
   int s = 0;
-  String n = " ";
+  String n = "";
   while (s < a) {
     s += 1;
     if (s % 2 == 0) {
@@ -17,5 +17,5 @@ String func(int a) {
 }
 
 void main() {
-  print(func(7));
+  print(func(6));
 }
